@@ -1,0 +1,5 @@
+Git has 3 stage architecture:
+working directory-->staging area-->repository
+
+git status- used to check the status of the present directory whether the present directory is a repo or not
+git init- used to initialize the present directory as the git repo
