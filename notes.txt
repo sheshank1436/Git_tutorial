@@ -1,5 +1,36 @@
 Git has 3 stage architecture:
-working directory-->staging area-->repository
+-working directory-->staging area-->repository
 
-git status- used to check the status of the present directory whether the present directory is a repo or not
-git init- used to initialize the present directory as the git repo
+.git:
+.git stores all the information about the version control
+pwd:
+pwd is used to know the present working directory
+
+ls:
+ls is used to list the contents of the directory
+
+git status:
+git status is used to check the status of the present directory whether the present directory is a repo or not.
+
+git init:
+ it is used to initialize the present directory as the git repo.
+
+git add:
+ git add is used for two purposes:
+  git add --a is used to add the untracked files or newly added files into the staging area.
+  git add filename is used to turn a modified file to unmodified version in other words this command will help the modified file 
+  to send the changes init to staging area.
+git commit:
+ Commits are created with the git commit command to capture the state of a project at that point in time.
+ The git commit command captures a snapshot of the project's currently staged changes. Committed snapshots 
+ can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to.
+ git commit -m "message" is used to commit with a message.
+
+git log:
+ git log is used to see all the history of commits which we did.
+
+how to delete the present folder as a repo?
+ rm -f .git will remove the present directory as a repo and the folder will not be tracked anymore.
+
+git clone:
+git clone "link" is used to get all the contents from link and will be downloaded into the present folder.
