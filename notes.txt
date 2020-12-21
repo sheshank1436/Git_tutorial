@@ -63,3 +63,12 @@ git diff:
 used to compare staging area and the present  working dir files.
 if you do changes in the file after sending it to staging area then git diff will show two versions 
 if both the files has some changed data then it will show both versions.
+
+Working Directory – files in a current local directory that you are working on.
+Staging Area (aka. cache, index) – is a temporary area where you add files with git add command.
+
+HEAD – is a reference to a specific commit (normally to the the last commit in a local repository).
+
+git diff Shows the changes between the Working Directory and the Staging Area.
+git diff --staged Shows the changes between the Staging Area and the HEAD.
+git diff head Shows all the changes between the Working Directory and the HEAD
