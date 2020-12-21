@@ -36,9 +36,20 @@ git clone:
 git clone "link" is used to get all the contents from link and will be downloaded into the present folder.
 
 .gitignore:
+ The .gitignore file is a text file that tells Git which files or folders to ignore in a project.
  suppose you have some files in the folder which shouldn't be tracked but git then that file name should be .gitignore file in the folder.
+ A local .gitignore file is usually placed in the root directory of a project. 
+ You can also create a global .gitignore file and any entries in that file will be ignored in all of your Git repositories.
  we can create .gitignore in the present directory by using touch .gitignore
  suppose you have file name  error.log which shouldn't be tracked add error.log to the .gitignore file and that file wont be tracked
  suppose you have a directory with name dir which shouldn't be tracked add dir/ to the .gitignore file and that folder wont be tracked.
- suppose in  dir you only want dir to be untracked and you want its sub dir to be tracked then use \dir\  to the .gitignore file and that folder wont be tracked
+ suppose in  dir you only want dir to be untracked and you want its sub dir to be tracked then use \dir\  to the .gitignore file and
+ that folder wont be tracked
+ To create a local .gitignore file, create a text file and name it .gitignore (remember to include the . at the beginning). 2
+ Then edit this file as needed. Each new line should list an additional file or folder that you want Git to ignore.
 
+ The entries in this file can also follow a matching pattern.
+
+ * is used as a wildcard match
+ / is used to ignore pathnames relative to the .gitignore file
+ # is used to add comments to a .gitignore file

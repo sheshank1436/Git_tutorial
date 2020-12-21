@@ -5,4 +5,4 @@ git status is used to check the status of the present directory whether the pres
 git init is used to initialize the present directory as the git repo
 git add --a will add all the files present in the current directory to the staging area
 
-added some text to this file
+added some text to this file which is now updated here for the second time.

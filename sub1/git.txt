@@ -1,6 +1,0 @@
-Git has 3 stage architecture:
-working directory-->staging area-->repository
-
-git status is used to check the status of the present directory whether the present directory is a repo or not
-git init is used to initialize the present directory as the git repo
-git add --a will add all the files present in the current directory to the staging area
