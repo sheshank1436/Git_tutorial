@@ -50,6 +50,16 @@ git clone "link" is used to get all the contents from link and will be downloade
 
  The entries in this file can also follow a matching pattern.
 
- * is used as a wildcard match
- / is used to ignore pathnames relative to the .gitignore file
- # is used to add comments to a .gitignore file
+ 	* is used as a wildcard match.
+	 / is used to ignore pathnames relative to the .gitignore file.
+	 # is used to add comments to a .gitignore file.
+suppose if we have done changes in  a file and loaded them to staging area using git add --a then before commiting if we again did some changes
+in the same file.
+after doing the changes again and checking the git status we can see the same file in modified and as well as staging area.
+the staging area consists of the previous version data.
+the modified consits of new version file.
+
+git diff:
+used to compare staging area and the present  working dir files.
+if you do changes in the file after sending it to staging area then git diff will show two versions 
+if both the files has some changed data then it will show both versions.
