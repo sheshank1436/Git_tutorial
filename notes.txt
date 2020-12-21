@@ -70,5 +70,11 @@ Staging Area (aka. cache, index) – is a temporary area where you add files wit
 HEAD – is a reference to a specific commit (normally to the the last commit in a local repository).
 
 git diff Shows the changes between the Working Directory and the Staging Area.
-git diff --staged Shows the changes between the Staging Area and the HEAD.
+git diff --staged Shows the changes between the Staging Area and the HEAD(the data with last commit).
 git diff head Shows all the changes between the Working Directory and the HEAD
+
+git add -a -m "commit by skipping staging area:
+  this command is used to commit the tracked files by skipping the staging area.
+  we cannot use this command on untracked files.
+
+"The End"
