@@ -34,3 +34,11 @@ how to delete the present folder as a repo?
 
 git clone:
 git clone "link" is used to get all the contents from link and will be downloaded into the present folder.
+
+.gitignore:
+ suppose you have some files in the folder which shouldn't be tracked but git then that file name should be .gitignore file in the folder.
+ we can create .gitignore in the present directory by using touch .gitignore
+ suppose you have file name  error.log which shouldn't be tracked add error.log to the .gitignore file and that file wont be tracked
+ suppose you have a directory with name dir which shouldn't be tracked add dir/ to the .gitignore file and that folder wont be tracked.
+ suppose in  dir you only want dir to be untracked and you want its sub dir to be tracked then use \dir\  to the .gitignore file and that folder wont be tracked
+
