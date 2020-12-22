@@ -1,5 +1,7 @@
 Git has 3 stage architecture:
--working directory-->staging area-->repository
+-working directory-->staging area-->repository.
+
+
 
 .git:
 .git stores all the information about the version control
@@ -77,4 +79,4 @@ git add -a -m "commit by skipping staging area:
   this command is used to commit the tracked files by skipping the staging area.
   we cannot use this command on untracked files.
 
-"The End"
+"The End is here"
